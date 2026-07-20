@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>jQuery UI Calendar Example</title>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- jQuery UI library -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="styleSheet" href="employeeScheduole.css">
+</head>
+<body>
+    <main>
+     <h1>EMPLOYEE DASBOARD</h1>
+     <select id="drop">
+        <option selected disabled> select</option>
+        <option>employeeA</option>
+        <option>employeeB</option>
+        <option>All</option>
+     </select>
+     <label for="datepicker">Select a Date:</label>
+    <input type="text" id="datepicker" placeholder="Click to choose date">
+
+     <br>
+     <br>
+     <div id="employeeA">
+        <b>employeeA works 7days weakly</b>
+        <p>Schedule: Monday to friday</p>
+     </div>
+     <br>
+     <div id="employeeB">
+        <b>employeeB works 14days recurring</b>
+        <p>Schedule week1: Monday and tuesday</p>
+        <p>Schedule week2:thursday and friday</p>
+        <p>this Schedule repeats</p>
+     </div>
+
+     </main>
+     <script src="employeeSchedule.js"></script>
+     <script src="calender.js"></script>
+    </body>
+</html>

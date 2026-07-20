@@ -1,0 +1,29 @@
+ *{
+    margin:0;/*50px*/
+    padding: 0;
+     font-family: Arial, sans-serif;
+ }
+ h1{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+ }
+ #employeeA{
+    height: 150px;
+    width: 200px;
+    background-color: skyblue;
+    border: 2px solid black;
+ }
+ #employeeB{
+    height: 150px;
+    width: 200px;
+    background-color: skyblue;
+    border: 2px solid black;
+ }
+ label {
+   font-weight: bold;
+ }
+ input {
+    padding: 5px;
+   font-size: 14px;
+ }
